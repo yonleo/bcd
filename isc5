@@ -1,0 +1,13 @@
+# INTERRUPÇÃO
+## É a quebra da sequência de operação de forma a atender eventos
+## especiais, tais como:
+### - Entrada de dados atendendo a solicitação de periféricos
+### - Atendimento de sinal de sensor
+### - Sinais internos
+
+# GERADOR DE SINAIS DE INTERRUPÇÃO
+## É um dispositivo do controlador que, ao receber um sinal de
+## interrupção, salva o estado atual do processador (Registrador de
+## Estado ou PSW), o endereço de retorno e desvia a execução do
+## programa para Rotina de Serviço de Interrupção (RSI).
+
